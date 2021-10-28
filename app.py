@@ -11,7 +11,7 @@ STATIC_FOLDER = 'static'
 UPLOAD_FOLDER = STATIC_FOLDER + '/uploads'
 ### CONSTANT ###
 
-with open('..\Flask App\static\params\params4.json', 'r') as json_file:
+with open('..\static\params\params4.json', 'r') as json_file:
     data = json.load(json_file)
 
 app = Flask(__name__)
