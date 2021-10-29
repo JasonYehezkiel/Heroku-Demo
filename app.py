@@ -8,7 +8,7 @@ from app_utils import *
 
 ### CONSTANT ###
 STATIC_FOLDER = 'static'
-UPLOAD_FOLDER = STATIC_FOLDER + '/uploads'
+UPLOAD_FOLDER = STATIC_FOLDER + '/tmp'
 ### CONSTANT ###
 
 with open('static/params/params4.json', 'r') as json_file:
